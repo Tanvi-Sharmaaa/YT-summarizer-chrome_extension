@@ -19,17 +19,22 @@ This Chrome extension extracts transcripts from YouTube videos and summarizes th
 
    Or download the ZIP file and extract it.
 
-2. Open Chrome Extensions page
+2. Add your API key
+
+   - Find the popup.js file where the API key is defined.
+   - Replace the placeholder API key with your own Hugging Face API key.
+
+3. Open Chrome Extensions page
 
    - Open Chrome and go to: chrome://extensions/
    - Enable Developer mode by toggling the switch in the top-right corner.
 
-3. Load the unpacked extension
+4. Load the unpacked extension
 
    - Click the Load unpacked button.
    - Select the folder where you cloned or extracted the project.
 
-4. Use the extension
+5. Use the extension
 
    - Go to any YouTube video page which has transcript.
    - Click the extension icon in the Chrome toolbar.
