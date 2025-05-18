@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name":"YouTube Video Summarizer",
+    "version":"1.0",
+    "description":"Summarizes YouTube Video",
+    "permissions": [],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "host_permissions": [
+        "https://www.youtube.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches":["https://www.youtube.com/watch*"],
+            "js":["content.js"]
+        }
+    ]
+}
